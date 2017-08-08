@@ -2,7 +2,7 @@ Xdotool Blocks
 =================
 
 Xdotool Blocks is a block based web-application to create Xdotool scripts.  
-This project/code/program is not affiliated in any way with Xdotool, Google, or Google Blockly. 
+This project/code/program is not affiliated in any way with Xdotool, Google, Google Blockly, or their respective authors. 
 This is simply a free to use program to help make script creation easier, smoother, and quicker.  
 
 Installation
@@ -13,8 +13,8 @@ Simply navigate to the index.html in your HTML5 compliant web browser and progra
 
 
 
-This program uses the Google Blockly library: https://developers.google.com/blockly/
-
+This program uses the Google Blockly library: https://developers.google.com/blockly/  
+This program generates code to use with Xdotool: http://www.semicomplete.com/projects/xdotool  
 
 Usage
 =================
