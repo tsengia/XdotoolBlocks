@@ -7,7 +7,7 @@ Blockly.Xdotool.COMMENT_WRAP = 35;
 Blockly.Xdotool.inClearmods = false; // Set to true if inside of a "Clear Modifiers" block
 Blockly.Xdotool.inSync = false; // Set to true if inside of a "Sync" block
 Blockly.Xdotool.inWindow = false; // Set to true if inside of a "In Window" block
-Blockly.Xdotool.windowID = -1;
+Blockly.Xdotool.windowID = "%1";
 
 Blockly.Xdotool.init = function (workspace) {
 	this.INDENT = ""; // This helps prevent an annoying indent from the Script Start statement making the code look messy

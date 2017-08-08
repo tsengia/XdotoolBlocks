@@ -105,7 +105,7 @@ Blockly.Xdotool['withwindow'] = function(block) {
   
   
   Blockly.Xdotool.inWindow = false;
-  Blockly.Xdotool.windowID = -1;
+  Blockly.Xdotool.windowID = "%1";
   
   return statements_commands;
 };
@@ -215,12 +215,9 @@ Blockly.Xdotool['windowmove'] = function(block) {
 	code += "--relative ";  
   }
   
-  if(Blockly.Xdotool.inWindow) {
-	code += Blockly.Xdotool.windowID + " ";  
-  }
-  else {
-	code += "%1 "  
-  }
+  
+  code += Blockly.Xdotool.windowID + " ";  
+  
   
   code += number_x + " " + number_y;
   return code;
